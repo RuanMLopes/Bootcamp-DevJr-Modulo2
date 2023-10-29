@@ -3,6 +3,26 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
+        input {
+            width: 95%;
+            height: 22px;
+            padding: 0.9375rem;
+            font-size: 1.25rem;
+            border-radius: 5px;
+            border: 0;
+            margin: 10px;
+        }
+
+        input:focus {
+            outline: none;
+            box-shadow: 0 0 10px #009E9E;
+        }
+
+        a {
+            color: #E9E9E9;
+            font-size: 0.8rem;
+        }
+
         .container {
             background-color: #E9E9E9;
             margin: auto;
@@ -15,7 +35,7 @@
         }
 
         .header {
-            padding: 2.5rem;
+            padding: 0.9375rem;
         }
 
         .flex-container {
@@ -102,6 +122,18 @@
             font-size: 3rem !important;
         }
 
+        .form-register {
+            background-color: #006A6A;
+            color: #FFF;
+
+            align-items: center;
+            align-content: space-around;
+
+            display: flex;
+            flex-direction: column;
+            padding: 1.25rem;
+        }
+
         @media screen and (max-width: 620px) {
             html {
                 font-size: 12px;
@@ -122,6 +154,10 @@
 
             .col-2 {
                 width: 100%;
+            }
+
+            .header {
+                padding: 15px;
             }
 
         }
